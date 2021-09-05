@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <title>Display Quotes</title>
+
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <div>
+            <div class="quote-container">
+                <button id="quote-btn">Request Quote</button>
+                <h3 >
+                    <span class="quote-icon">
+                        <i class="fas fa-quote-left fa-3x"></i>
+                    </span>
+                    <span id="quote">
+                    </span>
+                </h3>
+                <h5 class="author">-
+                    <span class="quote-author">Author</span>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+        integrity=sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <!-- script js -->
+    <script src="./script.js"></script>
+
 </body>
+
 </html>
